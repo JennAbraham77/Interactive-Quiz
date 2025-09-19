@@ -86,6 +86,10 @@ web-design-quiz/
 
 ---
 
+## Preview
+
+---
+
 ## 📌 Future Enhancements
 
 * ⏱️ Timer for each question
