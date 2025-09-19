@@ -87,7 +87,7 @@ web-design-quiz/
 ---
 
 ## Preview
-
+Click here for a preview of the
 [HomePage](https://github.com/user-attachments/assets/3e0a78c7-d1e1-451f-aa36-fbdf39efebbf)
 <br><br> --- 
 
