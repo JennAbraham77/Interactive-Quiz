@@ -1,0 +1,239 @@
+<style>
+        body 
+        {
+            animation: gradient 15s ease infinite;
+            font-family: Arial;
+            background-size: cover;
+            background: linear-gradient(#074a19,#86cf9a);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        h1.main-heading
+       {
+            font-size: 40px;
+            font-family: 'Papyrus';
+            color: #92f288;
+            margin-top: 20px;
+        }
+         .quiz-container
+         {
+            background-color: white;
+            padding: 30px;
+            border-radius: 18px;
+            box-shadow: 0 14px 8px rgba(0, 255, 0, 0.1);
+            width: 400px;
+            text-align: center;
+            display: none;
+        }
+
+        .quiz-container h1
+        {
+            font-size: 28px;
+            color: black;
+            font-family: 'times new roman';
+            margin: 0;
+        }
+
+        .start-btn
+        {
+            background: linear-gradient(#31e886, #b4eb75);
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .start-btn:hover
+        {
+            background: linear-gradient(#dae813, #b4eb75);
+            transform: scale(1.05);
+        }
+        
+        .question
+        {
+           font-family:'times new roman';
+           font-size:13pt;
+        }
+        .choices
+        {
+            margin-top: 20px;
+            font-family: Monaco;
+        }
+
+        .choice
+         {
+            display: block;
+            background-color: #eee;
+            margin: 10px 0;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s, transform 0.2s ease;;
+        }
+
+        .choice:hover
+        {
+            background-color: #ddd;
+            transform: scale(1.05);
+
+        }
+
+        .correct
+        {
+            background: linear-gradient(#4CAF50, #2ff58b);
+            color: white;
+        }
+
+        .incorrect 
+        {
+            background: linear-gradient(#f44336, #9e7575);
+            color: white;
+        }
+
+        .btn 
+        {
+            background: linear-gradient(#04bd92, #2ff5d4);
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            display: none;
+        }
+
+        .btn:hover
+        {
+            background: linear-gradient(#1c7876, #2ff5d4);
+            transform: scale(1.05);
+        }
+
+        .reset-btn
+        {
+            background: linear-gradient(#5aab09, #ede611);
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            display: none;
+        }
+
+        .reset-btn:hover
+        {
+            background: linear-gradient(#073da8, #8f1869);
+            transform: scale(1.05);
+        }
+
+        .result 
+        {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .shake 
+        {
+            animation: shake 0.5s cubic-bezier(.36, .07, .19, .97);
+        }
+
+        @keyframes shake
+        {
+            0%, 100% {
+                transform: translateX(0);
+            }
+            20%, 60% {
+                transform: translateX(-10px);
+            }
+            40%, 80% {
+                transform: translateX(10px);
+            }
+        }
+        @keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave
+   {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) 
+{
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3)
+ {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave 
+{
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+p
+{
+color:#ccedbb;
+display:block;
+font-size:20pt;
+font-family:Copperplate, Papyrus, fantasy;;
+}
+
+    </style>
