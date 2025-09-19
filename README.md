@@ -89,6 +89,8 @@ web-design-quiz/
 ## Preview
 
 ![HomePage](https://github.com/user-attachments/assets/3e0a78c7-d1e1-451f-aa36-fbdf39efebbf)
+<br><br>
+**Question template and scoring:** <br><br>
 <img width="943" height="423" alt="image" src="https://github.com/user-attachments/assets/146fbaf6-8f8b-4270-bb5c-fecab2040a5a" />
 <img width="1887" height="832" alt="image" src="https://github.com/user-attachments/assets/cdc83735-8c82-4dbd-a448-8bbb911bbca5" />
 <img width="1893" height="848" alt="image" src="https://github.com/user-attachments/assets/fbecd9f4-f4f4-4414-9e2a-ac67ef7c0b92" />
