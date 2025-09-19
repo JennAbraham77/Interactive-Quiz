@@ -1,4 +1,4 @@
-# 🌟 Web Design Quiz
+# 🌟 Interactive Web Design Quiz
 
 An **interactive web-based quiz** that tests knowledge of **HTML**, **CSS**, and **JavaScript**.
 Questions are graded by difficulty — Easy, Medium, and Hard — and your score reflects how tough each question is.
